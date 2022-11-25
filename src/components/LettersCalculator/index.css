@@ -1,0 +1,83 @@
+/* Write your code here. */
+
+.Main-Container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+}
+
+.LettersCalculate-Container {
+  display: flex;
+  padding: 20px;
+}
+
+.Input-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  padding: 20px;
+}
+
+.Image-Container {
+  width: 75%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.letters-calculater-image {
+  width: 650px;
+  height: 650px;
+  float: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .letters-calculater-image {
+    width: 450px;
+    height: 450px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .Input-Container {
+    width: 30%;
+  }
+
+  .Image-Container {
+    width: 65%;
+  }
+}
+
+.label-text {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.input-calculator {
+  background-color: #1d976c;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.lettersCount {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #1d976c;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 70%;
+}
